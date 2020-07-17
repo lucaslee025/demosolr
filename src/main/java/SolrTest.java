@@ -24,7 +24,6 @@ public class SolrTest {
 
     @Test
     public void test() {
-
         Item item = new Item();
         item.setId(8883L);
         item.setName("我们一起学猫叫");
