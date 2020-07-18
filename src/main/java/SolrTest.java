@@ -34,7 +34,6 @@ public class SolrTest {
     }
 
     @Test
-
     public void findById() {
         Item byId = solrTemplate.getById(8888L, Item.class);
         System.out.println(byId);
